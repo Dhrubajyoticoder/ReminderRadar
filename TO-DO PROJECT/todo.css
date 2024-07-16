@@ -1,0 +1,63 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color:rgb(251, 250, 240);
+  background-image: url(https://cdn.pixabay.com/photo/2022/06/25/13/33/landscape-7283516_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+h1{
+  text-align: center;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#todo-input, #todo-date{
+  /* font-size: 15px;
+  padding: 10px 5px; */
+
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 10px;
+
+}
+.btn-dlt{
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+
+}
+  
+  
+
+.btn-todo{
+  background-color: rgb(55, 192, 9);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+
+}
+.btn-todo:hover {
+  background-color: #4caf50;
+}
